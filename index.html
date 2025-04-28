@@ -1,49 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shreyas Kulkarni | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shreyas Kulkarni - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>👋 Hi, I'm Shreyas Kulkarni!</h1>
-        <p>First-Year Computer Science Student | Passionate Learner | C, C++, Python Enthusiast</p>
-    </header>
+<!-- Navigation Bar -->
+<nav>
+  <div class="logo">Shreyas Kulkarni</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+  </div>
+  
+  <!-- Three Dots Dropdown -->
+  <div class="dropdown">
+    <button class="dropbtn">⋯</button>
+    <div class="dropdown-content">
+      <a href="#resume">My Resume</a>
+      <a href="#projects">My Projects</a>
+      <a href="#skills">My Skills</a>
+    </div>
+  </div>
+</nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm currently a first-year Computer Science student who loves to learn by building real-world projects. My journey began with C and C++, and now I'm exploring Python and beginner-level Data Structures and Algorithms. I believe projects are the best way to master concepts, and I enjoy applying what I learn in practical ways!</p>
-    </section>
+<!-- Hero Section -->
+<header>
+  <img src="images/profile.jpg" alt="Shreyas Kulkarni" class="profile-pic">
+  <h1>Hi, I'm Shreyas Kulkarni</h1>
+  <p>Computer Science Student | C, C++, Python Programmer | Project Enthusiast</p>
+</header>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>C Programming</li>
-            <li>C++ Programming</li>
-            <li>Python (Basics)</li>
-            <li>Beginner Level Data Structures & Algorithms</li>
-        </ul>
-    </section>
+<!-- About Section -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>I'm a first-year computer science student who loves learning through building projects.  
+     Passionate about C, C++, Python, and exploring data structures.  
+     I believe in learning by doing and creating real-world solutions.</p>
+</section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Text Editor in C++</strong> - A simple, command-line based text editor project developed to practice file handling and basic operations. [<a href="https://github.com/Shreyas1410-cmd/text-editor-cpp" target="_blank">View Project</a>]</li>
-        </ul>
-    </section>
+<!-- Resume Section -->
+<section id="resume" class="section">
+  <h2>My Resume</h2>
+  <p>Coming soon! Meanwhile, check my skills and projects below!</p>
+</section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>📧 Email: <a href="mailto:kulkshreyas1124@gmail.com">kulkshreyas1124@gmail.com</a></p>
-        <p>🌐 GitHub: <a href="https://github.com/Shreyas1410-cmd" target="_blank">github.com/Shreyas1410-cmd</a></p>
-    </section>
+<!-- Skills Section -->
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <ul>
+    <li>C Programming</li>
+    <li>C++ Programming</li>
+    <li>Basic Python</li>
+    <li>Beginner Data Structures</li>
+    <li>Problem Solving and Logical Thinking</li>
+  </ul>
+</section>
 
-    <footer>
-        <p>© 2025 Shreyas Kulkarni. All Rights Reserved.</p>
-    </footer>
+<!-- Projects Section -->
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="project">
+    <h3>Basic Text Editor (C++)</h3>
+    <p>A simple text editor built using C++ to edit, save, and manage text files — demonstrating file handling and basic UI design.</p>
+    <a href="https://github.com/Shreyas1410-cmd" target="_blank">View on GitHub</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Shreyas Kulkarni | <a href="mailto:kulkshreyas1124@gmail.com">kulkshreyas1124@gmail.com</a></p>
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
 
 </body>
 </html>
